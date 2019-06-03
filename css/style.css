@@ -1,0 +1,21 @@
+header nav ul {
+	list-style: none;
+	background-color: #2B9993;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+.img-navbar{
+	width: 30px;
+	border-radius: 50%;
+}
+
+#profile-pic{
+	border-radius: 50%;
+}
+
+#main-div{
+	margin-left: 100px;
+}
