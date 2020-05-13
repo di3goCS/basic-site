@@ -1,21 +1,34 @@
-header nav ul {
-	list-style: none;
-	background-color: #2B9993;
+/*Imports de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap');
+
+
+body {
+	background-color: #38d9a9;
+	color: black;
+}
+header {
+	background-color: #099268;
 }
 
-header nav ul li{
-	display: inline-block;
+header ul li a {
+	color: black;
 }
 
-.img-navbar{
-	width: 30px;
+a:hover {
+	background-color: white;
+}
+
+#profile-pic {
 	border-radius: 50%;
+	width: 20%;
+	padding: 2% 0% 1%;
 }
 
-#profile-pic{
-	border-radius: 50%;
+#principal-text {
+	font-family: 'DM Mono', sans-serif;
 }
 
-#main-div{
-	margin-left: 100px;
+#description-text {
+	font-family: 'DM Mono', sans-serif;
+	font-size: 1.2em;
 }
