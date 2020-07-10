@@ -1,13 +1,22 @@
 /*Imports de fonts*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap');
 
+/* Paleta de cores utilizada */
+/*
+Magenta - #D70270
+Magenta [Pastel] - #F08080
+Lavanda - #734F96
+Lavanda [Pastel] - #C8A2C8
+Azul -  #0038A8
+Azul [Pastel]  - #3DB0F7
+*/
 
 body {
-	background-color: #38d9a9;
+	background-color: #C8A2C8;
 	color: black;
 }
 header {
-	background-color: #099268;
+	background-color: #3DB0F7;
 }
 
 header ul li a {
@@ -15,12 +24,12 @@ header ul li a {
 }
 
 a:hover {
-	background-color: white;
+	background-color: #F08080;
+	color: #0038A8;
 }
 
 #profile-pic {
 	border-radius: 50%;
-	width: 20%;
 	padding: 2% 0% 1%;
 }
 
@@ -31,4 +40,12 @@ a:hover {
 #description-text {
 	font-family: 'DM Mono', sans-serif;
 	font-size: 1.2em;
+}
+
+
+/* Exceções de responsividade */
+@media (min-width: 768px){
+	#profile-pic {
+		width: 40%;
+	}
 }
