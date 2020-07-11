@@ -61,18 +61,17 @@ footer .row {
 
 #principal-text {
 	font-family: 'DM Mono', sans-serif;
-	font-size: 10em;
+	font-size: 1.5em;
 }
 
 #description-text {
 	font-family: 'DM Mono', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 #info-box {
 	background-color: #C8A2C8;
 	padding: 2%;
-	border-radius: 10px;
 }
 
 #info-box:hover {
