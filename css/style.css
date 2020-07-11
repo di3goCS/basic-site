@@ -1,5 +1,6 @@
 /*Imports de fonts*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 /* Paleta de cores utilizada */
 /*
@@ -12,20 +13,44 @@ Azul [Pastel]  - #3DB0F7
 */
 
 body {
-	background-color: #C8A2C8;
+	/*background-image: linear-gradient(to left, #0038A8 , #3DB0F7);*/
+	background-image: radial-gradient( #3DB0F7, #0038A8);
+	/*background-color: #C8A2C8;
+	background-color: #3DB0F7;*/
 	color: black;
 }
+
+body .description-text {
+	list-style: georgian;
+}
+
 header {
-	background-color: #3DB0F7;
+	/*background-color: #3DB0F7;*/
+	background-color: #734F96;
+	font-family: 'Do Hyeon', sans-serif;
 }
 
 header ul li a {
-	color: black;
+	color: #F08080;
 }
 
-a:hover {
+header a:hover {
 	background-color: #F08080;
+	/*background-color: #F08080;*/
 	color: #0038A8;
+}
+
+footer {
+	background-color: #D70270;
+	flex-shrink: 0;
+}
+
+footer .row {
+	padding: 1%;
+}
+
+footer .row .nav-item {
+	justify-content: space-between;
 }
 
 #profile-pic {
@@ -35,6 +60,7 @@ a:hover {
 
 #principal-text {
 	font-family: 'DM Mono', sans-serif;
+	font-size: 10em;
 }
 
 #description-text {
@@ -42,10 +68,14 @@ a:hover {
 	font-size: 1.2em;
 }
 
+#info-box {
+	background-color: #C8A2C8;
+}
+
 
 /* Exceções de responsividade */
 @media (min-width: 768px){
 	#profile-pic {
-		width: 40%;
+		width: 30%;
 	}
 }
