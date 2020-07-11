@@ -49,8 +49,9 @@ footer .row {
 	padding: 1%;
 }
 
-footer .row .nav-item {
-	justify-content: space-between;
+.references a {
+	color: #0038A8;
+	text-decoration: none;
 }
 
 #profile-pic {
@@ -70,6 +71,13 @@ footer .row .nav-item {
 
 #info-box {
 	background-color: #C8A2C8;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#info-box:hover {
+	background-color: #734F96;
+	color: white;
 }
 
 
@@ -78,4 +86,24 @@ footer .row .nav-item {
 	#profile-pic {
 		width: 30%;
 	}
+}
+
+/*Snippets*/
+
+/* Grow from https://github.com/IanLunn/Hover*/
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
