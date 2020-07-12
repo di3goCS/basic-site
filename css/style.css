@@ -55,7 +55,12 @@ footer .row a img {
 	margin-left: 1%;
 }
 
-.references a {
+#references {
+	font-family: 'Do Hyeon', sans-serif;
+	color: white;
+}
+
+#references a:hover {
 	color: #0038A8;
 	text-decoration: none;
 }
@@ -78,12 +83,16 @@ footer .row a img {
 
 #info-box {
 	background-color: #C8A2C8;
-	padding: 2%;
+	margin: 4%;
 }
 
 #info-box:hover {
 	background-color: #734F96;
-	color: white;
+	color: #F08080;
+}
+
+#network a {
+	margin: 0% 2%;
 }
 
 
