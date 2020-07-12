@@ -13,10 +13,7 @@ Azul [Pastel]  - #3DB0F7
 */
 
 body {
-	/*background-image: linear-gradient(to left, #0038A8 , #3DB0F7);*/
 	background-image: radial-gradient( #3DB0F7, #0038A8);
-	/*background-color: #C8A2C8;
-	background-color: #3DB0F7;*/
 	color: black;
 }
 
@@ -42,17 +39,27 @@ header a:hover {
 
 footer {
 	background-color: #D70270;
-	flex-shrink: 0;
+    position: absolute;
+	bottom:0;
+	width:100%;
+	margin: auto auto;
+	padding: 10px 5px;
+	clear:both;
 }
 
 footer .row {
-	padding: 1%;
+	padding-top: 1%;
+}
+
+footer .row a img {
+	margin-left: 1%;
 }
 
 .references a {
 	color: #0038A8;
 	text-decoration: none;
 }
+
 
 #profile-pic {
 	border-radius: 50%;
