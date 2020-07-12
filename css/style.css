@@ -13,7 +13,7 @@ Azul [Pastel]  - #3DB0F7
 */
 
 body {
-	background-image: radial-gradient( #3DB0F7, #0038A8);
+	background-color: #3DB0F7;
 	color: black;
 }
 
@@ -82,13 +82,15 @@ footer .row a img {
 }
 
 #info-box {
-	background-color: #C8A2C8;
+	background-color: #F08080;
+	font-weight: bolder;
+	color: #0038A8;
 	margin: 4%;
 }
 
 #info-box:hover {
-	background-color: #734F96;
-	color: #F08080;
+	background-color: #0038A8;
+	color: white;
 }
 
 #network a {
