@@ -1,6 +1,6 @@
 /*Imports de fonts*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 /* Paleta de cores utilizada */
 /*
@@ -11,10 +11,16 @@ Lavanda [Pastel] - #C8A2C8
 Azul -  #0038A8
 Azul [Pastel]  - #3DB0F7
 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 
 body {
-	background-color: #3DB0F7;
-	color: black;
+	background-color: #FAD2D2;
+	color: #000000;
+	width: 100%;
 }
 
 body .description-text {
@@ -23,7 +29,7 @@ body .description-text {
 
 header {
 	/*background-color: #3DB0F7;*/
-	background-color: #734F96;
+	background-color: black;
 	font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -34,12 +40,12 @@ header ul li a {
 header a:hover {
 	background-color: #F08080;
 	/*background-color: #F08080;*/
-	color: #0038A8;
+	color: #000000;
 }
 
 footer {
 	background-color: #F08080;
-    position: absolute;
+    position: relative;
 	bottom:0;
 	width:100%;
 	margin: auto auto;
@@ -57,40 +63,44 @@ footer .row a img {
 
 #references {
 	font-family: 'Do Hyeon', sans-serif;
-	color: white;
+	color: #000000;
+	
 }
 
-#references a:hover {
-	color: #0038A8;
+#references a {
 	text-decoration: none;
+	color: #000000;
 }
-
 
 #profile-pic {
 	border-radius: 50%;
 	padding: 2% 0% 1%;
+	width: 20%;
 }
 
 #principal-text {
-	font-family: 'DM Mono', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5em;
 }
 
-#description-text {
-	font-family: 'DM Mono', sans-serif;
-	font-size: 1.1em;
-}
-
 #info-box {
-	background-color: #F08080;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: #F08080;
 	font-weight: bolder;
-	color: #0038A8;
-	margin: 4%;
+	margin: 1%;
+	padding: 0 5%;
+	box-sizing: unset !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 #info-box:hover {
-	background-color: #0038A8;
-	color: white;
+	background-color: #F08080;
+	border-color: #000000;
+	color: #000000;
 }
 
 #network a {
@@ -101,7 +111,7 @@ footer .row a img {
 /* Exceções de responsividade */
 @media (min-width: 768px){
 	#profile-pic {
-		width: 30%;
+		width: 20%;
 	}
 }
 
