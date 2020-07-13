@@ -23,10 +23,6 @@ body {
 	width: 100%;
 }
 
-body .description-text {
-	list-style: georgian;
-}
-
 header {
 	/*background-color: #3DB0F7;*/
 	background-color: black;
@@ -80,6 +76,7 @@ footer .row a img {
 
 #principal-text {
 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
 	font-size: 1.5em;
 }
 
@@ -89,12 +86,12 @@ footer .row a img {
 	border-style: solid;
 	border-width: 0.1em;
 	border-color: #F08080;
-	font-weight: bolder;
 	margin: 1%;
 	padding: 0 5%;
-	box-sizing: unset !important;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+}
+
+#info-box ul {
+	list-style: square inside;
 }
 
 #info-box:hover {
