@@ -59,8 +59,8 @@ footer .row a img {
 
 #references {
 	font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
 	color: #000000;
-	
 }
 
 #references a {
@@ -71,7 +71,7 @@ footer .row a img {
 #profile-pic {
 	border-radius: 50%;
 	padding: 2% 0% 1%;
-	width: 20%;
+	width: 55%;
 }
 
 #principal-text {
@@ -112,6 +112,11 @@ footer .row a img {
 	}
 }
 
+@media (max-width: 768px){
+	#info-box {
+		font-size: 0.75em;
+	}
+}
 /*Snippets*/
 
 /* Grow from https://github.com/IanLunn/Hover*/
