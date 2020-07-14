@@ -114,7 +114,12 @@ footer .row a img {
 
 @media (max-width: 768px){
 	#info-box {
-		font-size: 0.75em;
+		font-size: 0.7em;
+		margin: 1% 6% 6%;
+	}
+
+	#network a {
+		margin: 0% 3%;
 	}
 }
 /*Snippets*/
