@@ -132,7 +132,6 @@ footer .row a img {
 		text-align: justify;
 		padding: 2%;
 	}
-
 }
 
 @media (max-width: 768px){
@@ -142,7 +141,7 @@ footer .row a img {
 	}
 
 	#network a {
-		margin: 0% 3%;
+		margin: 1% 6%;
 	}
 }
 /*Snippets*/
