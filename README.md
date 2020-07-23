@@ -11,7 +11,7 @@
 - [x] Definir layout inicial;
 - [x] Definir paleta de cores;
 - [x] Desenvolver responsivamente;
-- [ ] Escrever seção 'Sobre';
+- [x] Escrever seção 'Sobre';
 - [ ] Layout da seção 'Projetos desenvolvidos';
 - [ ] Implementar modo noturno;
 - [ ] Implementar outras utilizações de JS.
