@@ -70,11 +70,25 @@ footer .row a img {
 	padding: 4%;
 }
 
-.section-text p {
+.img-text {
+	text-align: center;
+}
+
+.img-text img {
+	width: 24%;
+	padding: 1.5%;
+}
+
+.img-text p {
+	text-align: justify;
 	font-size: 1.2em;
 	margin-bottom: 0;
 	text-indent: 1.5em;
 	margin-top: 1%;
+}
+
+.img-text p a {
+	color: black;
 }
 
 #profile-pic {
@@ -107,6 +121,10 @@ footer .row a img {
 	color: #000000;
 }
 
+#text-pic {
+	width: 50%;
+}
+
 #network a {
 	margin: 0% 2%;
 }
@@ -128,9 +146,8 @@ footer .row a img {
 	#profile-pic {
 		width: 20%;
 	}
-	.section-text {
-		text-align: justify;
-		padding: 2%;
+	.img-text img {
+		float: left;
 	}
 }
 
@@ -139,11 +156,14 @@ footer .row a img {
 		font-size: 0.7em;
 		margin: 1% 6% 6%;
 	}
-
+	.img-text img {
+		width: 70%;
+	}
 	#network a {
 		margin: 1% 6%;
 	}
 }
+
 /*Snippets*/
 
 /* Grow from https://github.com/IanLunn/Hover*/
