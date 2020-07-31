@@ -13,5 +13,6 @@
 - [x] Desenvolver responsivamente;
 - [x] Escrever seção 'Sobre';
 - [ ] Layout da seção 'Projetos desenvolvidos';
+- [ ] Alterar background
 - [ ] Implementar modo noturno;
 - [ ] Implementar outras utilizações de JS.
