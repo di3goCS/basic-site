@@ -15,4 +15,6 @@
 - [ ] Layout da seção 'Projetos desenvolvidos';
 - [ ] Alterar background
 - [ ] Implementar modo noturno;
-- [ ] Implementar outras utilizações de JS.
+- [ ] Implementar outras utilizações de JS;
+- [ ] Audio-descrição como ferramenta de acessibilidade;
+- [ ] Adicionar o intérprete de libras (baseado no do introvertendo).
