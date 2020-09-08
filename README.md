@@ -1,5 +1,5 @@
 # Escrever um README é sempre uma tensão...
-
+[![HitCount](http://hits.dwyl.com/di3goCS/di3goCS/di3goCSgithubio.svg)](http://hits.dwyl.com/di3goCS/di3goCS/di3goCSgithubio)
 ### Esse site é um projeto pessoal, com propósitos de estudo de front-end utilizando tecnologias comuns: HTML, CSS E JavaScript.
 <p align="center">
   <img
