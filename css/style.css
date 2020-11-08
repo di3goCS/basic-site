@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
-/* Paleta de cores utilizada */
-/*
-Magenta - #D70270
-Magenta [Pastel] - #F08080
-Lavanda - #734F96
-Lavanda [Pastel] - #C8A2C8
-Azul -  #0038A8
-Azul [Pastel]  - #3DB0F7
-*/
 * {
 	margin: 0px;
 	padding: 0px;
@@ -25,13 +16,26 @@ body {
 }
 
 header {
-	/*background-color: #3DB0F7;*/
-	background-color: black;
 	font-family: 'Do Hyeon', sans-serif;
 }
 
+
+.navbar {
+	background-color: #F08080 !important;
+	white-space: nowrap;
+}
+
+.navbar-brand:hover {
+	background-color: transparent;
+}
+
+header img {
+	width: 15%;
+	/*object-fit: cover;*/
+}
+
 header ul li a {
-	color: #F08080;
+	color: black;
 }
 
 header a:hover {
@@ -87,7 +91,7 @@ footer .row a img {
 	margin-top: 1%;
 }
 
-.img-text p a {
+body a {
 	color: black;
 }
 
@@ -123,6 +127,19 @@ footer .row a img {
 
 #text-pic {
 	width: 50%;
+}
+
+#skill-list ul {
+	list-style: square inside;
+	font-size: 2em;;
+}
+
+#skill-list ul li {
+	padding: 3%;
+}
+
+#skill-list img {
+	
 }
 
 #network a {
