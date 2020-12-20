@@ -5,12 +5,17 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	--primary-color:#81ecec;
+	--secondary-color:#00b894;
 }
 
+html, body {
+    min-height: 100%;
+}
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: #FAD2D2;
+	background-color: var(--primary-color);
 	color: #000000;
 	width: 100%;
 }
@@ -21,7 +26,7 @@ header {
 
 
 .navbar {
-	background-color: #F08080 !important;
+	background-color: var(--secondary-color) !important;
 	white-space: nowrap;
 }
 
@@ -39,19 +44,19 @@ header ul li a {
 }
 
 header a:hover {
-	background-color: #F08080;
+	background-color: var(--secondary-color);
 	/*background-color: #F08080;*/
 	color: #000000;
 }
 
 footer {
-	background-color: #F08080;
+	background-color: var(--secondary-color);
     position: relative;
-	bottom:0;
-	width:100%;
-	margin: auto auto;
-	padding: 10px 5px;
-	clear:both;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px 5px 0px;
+	/*clear:both;*/
 }
 
 footer .row {
@@ -65,7 +70,7 @@ footer .row a img {
 
 .section-title {
 	background-color: #000000;
-	color: #F08080;
+	color: var(--secondary-color);
 	padding-top: 2%;
 	padding-left: 3%;
 }
@@ -111,7 +116,7 @@ body a {
 	font-size: 1.1em;
 	border-style: solid;
 	border-width: 0.1em;
-	border-color: #F08080;
+	border-color: var(--secondary-color);
 	margin: 1%;
 	padding: 0 5%;
 }
@@ -121,7 +126,7 @@ body a {
 }
 
 #info-box:hover {
-	background-color: #F08080;
+	background-color: var(--secondary-color);
 	border-color: #000000;
 	color: #000000;
 }
@@ -132,7 +137,7 @@ body a {
 
 #skill-list ul {
 	list-style: square inside;
-	font-size: 2em;;
+	font-size: 1.8em;
 }
 
 #skill-list ul li {
@@ -175,6 +180,9 @@ body a {
 	}
 	#network a {
 		margin: 1% 6%;
+	}
+	#skill-list ul {
+		font-size: 1em;
 	}
 }
 
