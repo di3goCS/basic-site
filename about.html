@@ -18,56 +18,39 @@
 		<link rel="icon" href="/assets/favicon.ico" type="image/ico"/>
 		<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	</head>
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">
-					<img class="d-inline-block align-top pt-2" src="assets/logo.png">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-				  <ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#projetos">Projetos desenvolvidos</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#habilidades">Habilidades</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#sobre-mim">Mais sobre mim</a>
-					</li>
-				  </ul>
+				<div class="col-2">
+					<a class="navbar-brand" href="index.html">
+						<img class="d-inline-block align-top" src="assets/logo.png">
+					</a>
 				</div>
-			  </nav>
+				<div class="col-10">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html#projetos">Projetos desenvolvidos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html#habilidades">Habilidades</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Mais sobre mim</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</header>
-		<div id="#content" class="container-fluid justify-content-around">
-			<div class="row justify-content-center align-items-center">
-				<img class="img-fluid" src="assets/profile_pic.png" alt="foto Diego" title="Diego" id="profile-pic">
-			</div>
-			<div class="row justify-content-center align-self-center">
-				<h1 id="principal-text">Diego Silva</h1>
-			</div>
-			<div class="row justify-content-center">
-				<div class="rounded pt-3" id="info-box">
-					<ul>
-						<li>Graduando em Engenharia de Computação - UEFS;</li>
-						<li>Técnico em Desenvolvimento de Sistemas - SENAI/FSA;</l>
-						<li>Empresário Júnior na <a href="http://www.ecompjr.com.br" target="_blank">EcompJr</a></li>
-						<li>Atuo em algumas oficinas de programação pelo 
-							<a href="https://www.instagram.com/pet.engs.uefs/" target="_blank">PET</a>,
-							<a href="https://www.instagram.com/tisp.uefs/" target="_blank">TISP</a> e
-							<a href="https://www.instagram.com/less.uefs/" target="_blank">LESS</a></li>
-						<li>Leitor e <i>geek</i>;</li>
-						<li><i>Poser</i> em todos os aspectos do item anterior;</li>
-						<li>Aspirante a <i>clean coder</i>.</li>
-					</ul>
-				</div>
-			</div>
+		<div id="#content" class="container-fluid">
 			<div class="row justify-content-left section-title" id="sobre-mim">
 				<h1> Sobre mim </h1>
 			</div>
@@ -108,27 +91,41 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row justify-content-center mt-1 mb-1" id="network">
-					<a href="https://github.com/di3goCS" target="_blank">
-						<img src="assets/github.png" alt="Github icon"/>
-					</a>
-					<a href="http://lattes.cnpq.br/7691484795936785" target="_blank">
-						<img src="assets/lattes.png" alt="Lattes icon"/>
-					</a>
-					<a href="https://www.linkedin.com/in/diego-silva-32a560175/" target="_blank">
-						<img src="assets/linkedin.png" alt="Linkedin icon"/>
-					</a>
-					<a href="https://instagram.com/_dihcky" target="_blank">
-						<img src="assets/instagram.png" alt="Instagram icon"/>
-					</a>
-					<a href="https://twitter.com/di3goCS" target="_blank">
-						<img src="assets/twitter.png" alt="Twitter icon"/>
-					</a>
-					<a href="https://facebook.com/dihck" target="_blank">
-						<img src="assets/facebook.png" alt="Facebook icon"/>
-					</a>
-					<a href="https://open.spotify.com/user/gv347af796lak2b9co5lyiy7v?si=PlERdVa4TDumbwbuc2-dHQ" target="_blank">
-						<img src="assets/spotify.png" alt="Spotify icon"/>
-					</a>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://github.com/di3goCS" target="_blank">
+							<img src="assets/github.png" alt="Github icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="http://lattes.cnpq.br/7691484795936785" target="_blank">
+							<img src="assets/lattes.png" alt="Lattes icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://www.linkedin.com/in/diego-silva-32a560175/" target="_blank">
+							<img src="assets/linkedin.png" alt="Linkedin icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://instagram.com/_dihcky" target="_blank">
+							<img src="assets/instagram.png" alt="Instagram icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://twitter.com/di3goCS" target="_blank">
+							<img src="assets/twitter.png" alt="Twitter icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://facebook.com/dihck" target="_blank">
+							<img src="assets/facebook.png" alt="Facebook icon"/>
+						</a>
+					</div>
+					<div class="col-md-1 col-4 p-1">
+						<a href="https://open.spotify.com/user/gv347af796lak2b9co5lyiy7v?si=PlERdVa4TDumbwbuc2-dHQ" target="_blank">
+							<img src="assets/spotify.png" alt="Spotify icon"/>
+						</a>
+					</div>
 				</div>
 				<div class="row justify-content-center align-items-center" id="references">
 					<p> 
@@ -141,8 +138,6 @@
 				</div>
 			</div>
 		</footer>
-		  ... <!-- Conteúdo da página -->
-
 	<div vw class="enabled">
 		<div vw-access-button class="active"></div>
 		<div vw-plugin-wrapper>
@@ -154,7 +149,6 @@
 		new window.VLibras.Widget('https://vlibras.gov.br/app');
 	</script>
 	<script src="../js/main.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 	</body>
 </html>
