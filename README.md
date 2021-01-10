@@ -13,7 +13,7 @@
 - [x] Desenvolver responsivamente;
 - [x] Escrever seção 'Sobre';
 - [x] Adicionar o intérprete de libras (baseado no do introvertendo).
-- [ ] Layout da seção 'Projetos desenvolvidos';
+- [x] Layout da seção 'Projetos desenvolvidos';
 - [ ] Alterar background
 - [ ] Implementar modo noturno;
 - [ ] Implementar outras utilizações de JS;
