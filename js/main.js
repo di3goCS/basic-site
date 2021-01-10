@@ -3,13 +3,8 @@ const section_img = document.getElementById("section-img");
 const info_box = document.getElementById("info-box");
 
 profile_pic.onclick = function() {
-    let mySrc = this.getAttribute('src');
-    if (mySrc == 'assets/profile_pic.png'){
-        this.setAttribute('src', 'assets/profile_pic2.jpeg');
-    }
-    else {
-        this.setAttribute('src', 'assets/profile_pic.png');
-    }
+    let pics = ['assets/profile_pic.png', 'assets/profile_pic2.jpeg']
+    this.setAttribute('src', pics[Math.random() * pics.length | 0]);
 };
 
 section_img.onmouseover = function() {
