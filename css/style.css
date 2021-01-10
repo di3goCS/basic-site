@@ -35,7 +35,8 @@ header {
 }
 
 header img {
-	width: 15%;
+	width: 50%;
+	margin-left: 4%;
 	/*object-fit: cover;*/
 }
 
@@ -97,6 +98,36 @@ footer .row a img {
 	margin-top: 1%;
 }
 
+.project-box {
+	border: 1px solid var(--secondary-color);
+}
+
+.project-pic {
+	border-bottom: 1px solid var(--secondary-color);
+	text-align: center;
+}
+
+.project-pic img {
+	justify-self: center;
+	width: 100%;
+}
+
+.project-description p {
+	margin: 2%;
+	text-align: justify;
+}
+
+.project-link {
+	border-top: 1px solid var(--secondary-color);
+	text-align: center;
+}
+
+.project-link img {
+	width: 5%;
+	margin: 1%;
+}
+
+
 body a {
 	color: black;
 }
@@ -110,15 +141,20 @@ body a {
 #principal-text {
 	font-weight: 700;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 #info-box {
 	font-size: 1.1em;
-	border-style: solid;
+	/* border-style: solid;
 	border-width: 0.1em;
-	border-color: var(--secondary-color);
+	border-color: var(--secondary-color); */
 	margin: 1%;
 	padding: 0 5%;
+	background-color: var(--secondary-color);
+	border-color: #000000;
+	color: #000000;
+	/* box-shadow: 10px 10px 5px black; */
 }
 
 #info-box ul {
@@ -126,9 +162,8 @@ body a {
 }
 
 #info-box:hover {
-	background-color: var(--secondary-color);
-	border-color: #000000;
-	color: #000000;
+	transition: 0.25s;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
 }
 
 #text-pic {
@@ -142,10 +177,6 @@ body a {
 
 #skill-list ul li {
 	padding: 3%;
-}
-
-#network a {
-	margin: 0% 2%;
 }
 
 #references {
