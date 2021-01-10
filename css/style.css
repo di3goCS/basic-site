@@ -102,6 +102,7 @@ footer .row a img {
 
 .project-box {
 	border: 2px solid var(--secondary-color);
+	margin-bottom: 5%;
 }
 
 .project-pic {
