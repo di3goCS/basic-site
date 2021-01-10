@@ -24,43 +24,49 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="col-2">
-					<a class="navbar-brand" href="index.html">
-						<img class="d-inline-block align-top" src="assets/logo.png">
-					</a>
-				</div>
-				<div class="col-10">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					  <span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link" href="#projetos">Projetos desenvolvidos</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#habilidades">Habilidades</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about.html">Mais sobre mim</a>
-							</li>
-						</ul>
+			<div class="row justify-content-between">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="col-7 col-md-2 order-1 order-md-0">
+						<a class="navbar-brand" href="index.html">
+							<img class="d-inline-block align-self-top" src="assets/logo.png">
+						</a>
 					</div>
-				</div>
-			</nav>
+					<div class="col-2 col-md-10">
+						<!-- <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNav"> -->
+						<button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="#projetos">Projetos desenvolvidos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#habilidades">Habilidades</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">Mais sobre mim</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
 		</header>
 		<div id="#content" class="container-fluid">
 			<div class="row justify-content-center align-items-center">
 				<img class="img-fluid" src="assets/profile_pic.png" title="Diego" id="profile-pic" alt="A foto é circular e mostra diego sorrindo. Diego é negro, usa óculos e uma camisa cinza com mangas pretas. A camisa tem o brasão de Hogwarts. O fundo da foto mostra uma vegetação verde, de árvore com galhos finos. A iluminação da foto é feita pelo sol, da esquerda para direita, o que faz uma sombra se formar na parte direita do rosto de Diego.">
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-4 align-self-center">
+				<div class="col-8 col-md-4 align-self-center">
 					<h1 id="principal-text">Diego Silva</h1>
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-6 rounded pt-3" id="info-box">
+				<div class="col-11 col-md-6 rounded pt-3" id="info-box">
 					<ul>
 						<li>Graduando em Engenharia de Computação - UEFS;</li>
 						<li>Técnico em Desenvolvimento de Sistemas - SENAI/FSA;</li>
@@ -96,37 +102,38 @@
 				<h1> Projetos </h1>
 			</div>
 			<div class="row justify-content-center p-3">
-				<div class="col-8 col-md-4 order-0">
+				<div class="col-12 col-md-4 order-0">
 					<div class="project-box">
 						<div class="project-pic">
 							<img src="assets/site.png"/>
 						</div>
 						<div class="project-description">
-							<p>Site Pessoal: O site foi criado com o propósito de servir como um portfólio para mim. 
+							<p><a href="#">Portfólio pessoal</a>: O site foi criado com o propósito de servir como um portfólio para mim. 
 								Sendo assim, nada mais justo do que ser o primeiro projeto adicionado aqui :)</p>
 						</div>
 						<div class="project-link">
 							<img src="assets/github.png" alt="Github icon"/>
-							<a href="https://github.com/di3goCS/di3goCS.github.io">https://github.com/di3goCS/di3goCS.github.io</a>
+							<a href="https://github.com/di3goCS/di3goCS.github.io">github.com/di3goCS/di3goCS.github.io</a>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-8 col-md-4">
+				<div class="col-12 col-md-4 order-0">
 					<div class="project-box">
 						<div class="project-pic">
-							<p>Aqui vem a foto do projeto</p>
+							<img src="assets/covid-municipal.png"/>
 						</div>
 						<div class="project-description">
-							<p>O site tem como propósito servir como um portfólio para mim, então,
-								nada mais justo do que ser o primeiro projeto adicionado aqui :)
-							</p>
+							<p><a href="https://irara.covidmunicipal.live/">Covid Municipal</a>: O dashboard de monitoramento dos dados sobre o Covid 
+								em âmbito municipal	foi um projeto sugerido e cocriado com meu amigo <a href="https://github.com/Erick2280" target="_blank">Erick</a>. 
+								Através desse projeto, começamos a fazer um tracking com uma apresentação mais amigável acerca da situação dessa
+								doença em nosso município. </p>
 						</div>
 						<div class="project-link">
 							<img src="assets/github.png" alt="Github icon"/>
-							<a href="https://github.com/di3goCS/di3goCS.github.io" target="_blank">https://github.com/di3goCS/di3goCS.github.io</a>
+							<a href="https://github.com/covidmunicipal/covid19-dashboard-irara">github.com/covidmunicipal/covid19-dashboard-irara</a>
 						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 		<footer>
@@ -192,8 +199,6 @@
 	</script>
 	<script src="../js/main.js" defer></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
 	</body>
 </html>
 
