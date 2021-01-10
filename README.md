@@ -17,5 +17,3 @@
 - [ ] Alterar background
 - [ ] Implementar modo noturno;
 - [ ] Implementar outras utilizações de JS;
-- [ ] Audio-descrição como ferramenta de acessibilidade;
-
