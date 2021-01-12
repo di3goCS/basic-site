@@ -232,8 +232,10 @@ body a {
 
 @media (max-width: 768px){
 	#info-box {
-		font-size: 0.7em;
 		margin: 1% 6% 6%;
+		padding: 0 2%;
+		font-size: 0.9em;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
 	}
 	.img-text img {
 		width: 70%;
