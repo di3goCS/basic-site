@@ -13,6 +13,11 @@
 html, body {
 	min-height: 100%;
 	overflow-x: hidden;
+	/* efeito */
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -20,6 +25,27 @@ body {
 	background-color: var(--primary-color);
 	color: #000000;
 	width: 100%;
+	/* efeito */
+	background-image: 
+        radial-gradient(circle at left bottom, 
+        #ffff 0%, #ffff 20%, 
+        #fffb 20%, #fffb 30%, 
+        #fff6 30%, #fff6 40%, 
+        #fff2 40%, #fff2 50%, 
+        transparent 50%, transparent 100%),
+        url(https://placecage.com/100/100);
+    background-size: 60% 60%, cover;
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+
+    animation: nome 5s infinite;
+}
+
+/* efeito */
+@keyframes nome {
+    50% {
+        background-size: 100% 100%, cover;
+    }
 }
 
 header {
