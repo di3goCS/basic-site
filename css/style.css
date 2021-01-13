@@ -161,6 +161,10 @@ body a {
 	color: black;
 }
 
+#nav-logo {
+
+}
+
 #profile-pic {
 	border-radius: 50%;
 	padding: 2% 0% 1%;
@@ -236,6 +240,9 @@ body a {
 		padding: 0 2%;
 		font-size: 0.9em;
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+	}
+	.navbar-collapse {
+		padding-left: 30%;
 	}
 	.img-text img {
 		width: 70%;
