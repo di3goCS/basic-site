@@ -188,6 +188,11 @@ body a {
 	width: 55%;
 }
 
+#profile-pixel {
+	align-self: center;
+	width: 30%;
+}
+
 #principal-text {
 	font-weight: 700;
 	font-size: 1.5em;
