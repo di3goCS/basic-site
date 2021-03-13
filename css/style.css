@@ -161,8 +161,25 @@ body a {
 	color: black;
 }
 
-#nav-logo {
+#projects-button {
+	text-align: center;
+	align-content: center;
+	border-radius: 5px;
+	background-color: var(--secondary-color);
+	height: 50px;
+}
 
+#projects-button:hover {
+	background-color:var(--black-tone);
+	color: var(--secondary-color);
+}
+
+#projects-button a{
+	text-decoration: none;
+}
+
+#projects-button a:hover {
+	color: var(--secondary-color);
 }
 
 #profile-pic {
@@ -227,7 +244,7 @@ body a {
 /* Exceções de responsividade */
 @media (min-width: 768px){
 	#profile-pic {
-		width: 20%;
+		width: 30%;
 	}
 	.img-text img {
 		float: left;
