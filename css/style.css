@@ -213,7 +213,7 @@ body a {
 }
 
 #info-box ul {
-	list-style: square inside;
+	list-style: square outside;
 }
 
 #info-box:hover {
